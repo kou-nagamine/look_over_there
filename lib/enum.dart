@@ -25,7 +25,7 @@ enum Result{
   String get text {
     switch (this) {
       case Result.win:
-       return 'あなたの勝ち';
+       return 'win';
       case Result.draw:
        return 'あっち向いてホイ';
     }

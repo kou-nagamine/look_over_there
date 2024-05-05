@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'enum.dart';
 import 'dart:math';
 
@@ -51,14 +52,29 @@ class _GamePageState extends State<GamePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              myHand?.text ?? 'myhand'
+              'あなた',
             ),
             Text(
-              result?.text ?? 'result'
+              myHand?.text ?? '🙁',
+              style:TextStyle(
+                fontSize:40
+              )
             ),
             Text(
-              computerHand?.text ?? 'computerhand'
-            )
+              result?.text ?? '${Result.draw.text}',
+              style:TextStyle(
+                fontSize:30
+              )
+            ),
+            Text(
+              computerHand?.text ?? '🤖',
+              style:TextStyle(
+                fontSize:40
+              )
+            ),
+            Text(
+              'コンピューター',
+            ),
           ],
         ),
       ),
