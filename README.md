@@ -1,16 +1,9 @@
-# look_over_there
+# あっち向いてホイ
 
-A new Flutter project.
+コンピューターがランダムに出す指の方向と同じ向きの指を選択できたら勝利です。
 
-## Getting Started
+## UI
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|最初の画面|あっち向いてホイ|勝ったら終わり|
+| --- | --- | --- |
+|<img width="371" alt="スクリーンショット 2024-05-05 15 58 29" src="https://github.com/kou-nagamine/look_over_there/assets/136679628/aa55def3-beff-4c5d-a86f-b238a76ad6be">|<img width="373" alt="スクリーンショット 2024-05-05 15 59 23" src="https://github.com/kou-nagamine/look_over_there/assets/136679628/fac86a7b-c50e-4c5e-8692-b75f1c8b1a3c">|<img width="374" alt="スクリーンショット 2024-05-05 15 58 56" src="https://github.com/kou-nagamine/look_over_there/assets/136679628/85cc23ed-68dc-4371-944a-a0b8cb0987f2">|
